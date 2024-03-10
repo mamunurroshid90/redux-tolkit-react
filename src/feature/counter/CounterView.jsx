@@ -7,7 +7,7 @@ const CounterView = () => {
 
   const dispatch = useDispatch();
   return (
-    <div>
+    <div className="counter-btn">
       <h2>Count: {count}</h2>
       <button
         onClick={() => {
